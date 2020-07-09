@@ -14,9 +14,6 @@ class LogOutsourcedHandler extends AbstractProcessingHandler
     {
         $this->logOutsourcedLogger = LogOutsourcedFacade::createLogger($logOutsourcedApiUri);
         parent::__construct($level, $bubble);
-
-        $logger = new Logger('name');
-        $logger->pushHandler(new LogOutsourcedHandler('https://uri.to/your_log/outsourced_api'));
     }
 
     protected function write(array $record): void
