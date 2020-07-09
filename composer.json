@@ -1,0 +1,35 @@
+{
+    "name": "outsourced/log-monolog",
+    "type": "library",
+    "version": "0.1.0",
+    "description": "Monolog extension handler for log outsourced",
+    "keywords": [
+        "log",
+        "logging",
+        "monolog",
+        "outsourced"
+    ],
+    "license": "MIT",
+    "require": {
+        "monolog/monolog": "^2.1",
+        "outsourced/log-sdk": "^0.1.0"
+    },
+    "require-dev": {},
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "LogOutsourcedMonolog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
