@@ -1,7 +1,7 @@
 {
     "name": "outsourced/log-monolog",
     "type": "library",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Monolog extension handler for log outsourced",
     "keywords": [
         "log",
