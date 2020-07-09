@@ -12,7 +12,7 @@
     "license": "MIT",
     "require": {
         "monolog/monolog": "^2.1",
-        "outsourced/log-sdk": "^0.1.0"
+        "outsourced/log-sdk": "^0.1"
     },
     "require-dev": {},
     "config": {
