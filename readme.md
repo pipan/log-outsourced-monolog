@@ -1,6 +1,6 @@
 # Log Outsourced - monolog extension
 
-Monolog extension for [Log Outsourced](https://github.com/pipan/log-outsourced-api)
+Monolog extension for [Outsourced Logging](https://github.com/pipan/log-outsourced-api)
 
 ## Installation
 
@@ -27,7 +27,8 @@ You have to set `loggin` config to contain new monolog channel. Then you can use
             'driver'  => 'monolog',
             'handler' => LogOutsourcedMonolog\LogOutsourcedHandler::class,
             'with' => [
-                'logOutsourcedApiUri' => env('LOG_OUTSOURCED_API_URI', 'https://uri.to/your_log/outsourced_api')
+                'host' => env('OUTSOURCED_HOST', 'https://outsourced.example.com'),
+                'accessKey' => env('OUTSOURCED_ACCESS_KEY', 'access-key')
             ],
         ]
     ]
