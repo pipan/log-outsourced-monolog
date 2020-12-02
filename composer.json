@@ -1,7 +1,7 @@
 {
     "name": "outsourced/log-monolog",
     "type": "library",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Monolog extension handler for outsourced logging",
     "keywords": [
         "log",
@@ -12,7 +12,7 @@
     "license": "MIT",
     "require": {
         "monolog/monolog": "^2.1",
-        "outsourced/sdk": "^0.2"
+        "outsourced/sdk": "^0.3"
     },
     "require-dev": {},
     "config": {
